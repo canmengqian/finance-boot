@@ -1,0 +1,33 @@
+server:
+  port: 20002
+spring:
+  boot:
+    admin:
+      client:
+        url: "http://localhost:20001/"
+        username: admin
+        password: admin
+    security:
+      user:
+        name: admin
+        password: admin
+        roles: ACTUATOR_ADMIN #拥有角色，用于允许自身访问
+  application:
+    name: finance-data-crawler
+
+management:
+  health:
+    redis:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logging:
+  file:
+    name: hc-trust-manager
+    path: ./logs
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
