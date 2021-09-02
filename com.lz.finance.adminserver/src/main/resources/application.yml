@@ -1,0 +1,30 @@
+server:
+  port: 20001
+spring:
+  boot:
+    admin:
+      ui:
+        title: 微服务检测平台
+        remember-me-enabled: true
+      instance-auth:
+        enabled: true
+        default-user-name: admin
+        default-password: admin
+      discovery:
+        enabled: true
+  security:
+    user:
+      name: admin
+      password: admin
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
