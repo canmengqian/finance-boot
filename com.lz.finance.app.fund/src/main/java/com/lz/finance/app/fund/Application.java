@@ -1,4 +1,4 @@
-package com.lz.finance.app.login;
+package com.lz.finance.app.fund;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
