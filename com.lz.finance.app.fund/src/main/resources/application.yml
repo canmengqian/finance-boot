@@ -1,5 +1,5 @@
 server:
-  port: 20003
+  port: 20004
 spring:
   boot:
     admin:
@@ -8,7 +8,7 @@ spring:
         username: admin
         password: admin
   application:
-    name: login-session
+    name: fund-service
   security:
     user:
       name: admin
@@ -16,29 +16,20 @@ spring:
       roles: ACTUATOR_ADMIN
   devtools:
     livereload:
-      port: 35730
+      port: 35731
       enabled: true
-  datasource:
-    driver-class-name: org.h2.Driver
-    schema: classpath:db/schema-h2.sql
-    data: classpath:db/data-h2.sql
-    url: jdbc:h2:mem:test
-    username: root
-    password: test
-  config:
-    import: classpath:/application-redis.yml
 
 management:
   health:
     redis:
-      enabled: true
+      enabled: false
   endpoints:
     web:
       exposure:
         include: '*'
 logging:
   file:
-    name: login-session
+    name: fund-service
     path: ./logs
 eureka:
   client:
