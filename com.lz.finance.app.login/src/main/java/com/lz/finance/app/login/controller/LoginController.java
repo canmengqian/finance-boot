@@ -38,7 +38,7 @@ public class LoginController extends BaseController {
     }
 
     @PostMapping(value = "check")
-    @ApiOperation(value = "session登录", notes = "session登录")
+    @ApiOperation(value = "session登录检查", notes = "session登录检查")
     public void checkLogin(UserVO.UserIn in) {
         HttpSession session = request.getSession();
         UserModel model = null;
