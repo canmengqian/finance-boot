@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.lz.finance.eurekaserver" />
+        <module name="com.lz.finance.data.crawler" />
+        <module name="com.lz.finance.base.common" />
+        <module name="com.lz.finance.app.fund" />
+        <module name="com.lz.finance.adminserver" />
+        <module name="com.lz.finance.app.login" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.lz.finance.adminserver" target="11" />
+      <module name="com.lz.finance.app.fund" target="11" />
+      <module name="com.lz.finance.app.login" target="11" />
+      <module name="com.lz.finance.base" target="1.8" />
+      <module name="com.lz.finance.base.common" target="1.8" />
+      <module name="com.lz.finance.data.crawler" target="11" />
+      <module name="com.lz.finance.eurekaserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.lz.finance.adminserver" options="-parameters" />
+      <module name="com.lz.finance.app.fund" options="-parameters" />
+      <module name="com.lz.finance.app.login" options="-parameters" />
+      <module name="com.lz.finance.base" options="-parameters" />
+      <module name="com.lz.finance.base.common" options="-parameters" />
+      <module name="com.lz.finance.data.crawler" options="-parameters" />
+      <module name="com.lz.finance.eurekaserver" options="-parameters" />
+    </option>
+  </component>
+</project>

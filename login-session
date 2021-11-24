@@ -1,0 +1,57 @@
+2021-09-23 09:25:41.034  INFO 103212 --- [restartedMain] c.lz.finance.app.login.LoginApplication  : Starting LoginApplication using Java 11.0.9 on LAPTOP-9NE8GSDM with PID 103212 (D:\github\finance-boot\com.lz.finance.app.login\target\classes started by zhengzuozhang in D:\github\finance-boot)
+2021-09-23 09:25:41.048  INFO 103212 --- [restartedMain] c.lz.finance.app.login.LoginApplication  : No active profile set, falling back to default profiles: default
+2021-09-23 09:25:41.138  INFO 103212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-23 09:25:41.138  INFO 103212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-23 09:25:42.307  INFO 103212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-23 09:25:42.310  INFO 103212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-23 09:25:42.337  INFO 103212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-09-23 09:25:42.910  INFO 103212 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-23 09:25:42.931  INFO 103212 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4f2aff01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-23 09:25:43.070  INFO 103212 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-23 09:25:43.511  INFO 103212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20003 (http)
+2021-09-23 09:25:43.520  INFO 103212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-23 09:25:43.521  INFO 103212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-23 09:25:43.661  INFO 103212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-23 09:25:43.661  INFO 103212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2520 ms
+2021-09-23 09:25:43.712  WARN 103212 --- [restartedMain] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [0] datasource,Please add your primary datasource or check your configuration
+2021-09-23 09:25:45.062  INFO 103212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
+2021-09-23 09:25:50.186  INFO 103212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 20003 (http) with context path ''
+2021-09-23 09:25:52.004  INFO 103212 --- [restartedMain] c.lz.finance.app.login.LoginApplication  : Started LoginApplication in 13.499 seconds (JVM running for 15.792)
+2021-09-23 09:25:54.424  INFO 100156 --- [restartedMain] c.lz.finance.app.login.LoginApplication  : Starting LoginApplication using Java 11.0.9 on LAPTOP-9NE8GSDM with PID 100156 (D:\github\finance-boot\com.lz.finance.app.login\target\classes started by zhengzuozhang in D:\github\finance-boot)
+2021-09-23 09:25:54.427  INFO 100156 --- [restartedMain] c.lz.finance.app.login.LoginApplication  : No active profile set, falling back to default profiles: default
+2021-09-23 09:25:54.503  INFO 100156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-23 09:25:54.504  INFO 100156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-23 09:25:55.749  INFO 100156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-23 09:25:55.750  INFO 100156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-23 09:25:55.805  INFO 100156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2021-09-23 09:25:56.281  INFO 100156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-23 09:25:56.285  INFO 100156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$dc7499e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-23 09:25:56.362  INFO 100156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-23 09:25:57.056  INFO 100156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20003 (http)
+2021-09-23 09:25:57.071  INFO 100156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-23 09:25:57.072  INFO 100156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-23 09:25:57.168  INFO 100156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-23 09:25:57.171  INFO 100156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2666 ms
+2021-09-23 09:25:57.208  WARN 100156 --- [restartedMain] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [0] datasource,Please add your primary datasource or check your configuration
+2021-09-23 09:25:58.454  WARN 100156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-23 09:26:03.080  WARN 100156 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 20003 is already in use
+2021-09-23 09:26:03.137  INFO 100156 --- [restartedMain] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-09-23 09:26:03.138  INFO 100156 --- [restartedMain] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-09-23 09:26:03.141  INFO 100156 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-23 09:26:03.530  INFO 100156 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-23 09:26:03.554 ERROR 100156 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 20003 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 20003 or configure this application to listen on another port.
+

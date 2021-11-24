@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/com.lz.finance.adminserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.lz.finance.app.fund/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.lz.finance.app.login/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.lz.finance.base.common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.lz.finance.base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.lz.finance.base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.lz.finance.data.crawler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.lz.finance.eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

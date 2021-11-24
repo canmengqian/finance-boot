@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.lz.finance.adminserver/com.lz.finance.adminserver.iml" filepath="$PROJECT_DIR$/com.lz.finance.adminserver/com.lz.finance.adminserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.lz.finance.app.fund/com.lz.finance.app.fund.iml" filepath="$PROJECT_DIR$/com.lz.finance.app.fund/com.lz.finance.app.fund.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.lz.finance.app.login/com.lz.finance.app.login.iml" filepath="$PROJECT_DIR$/com.lz.finance.app.login/com.lz.finance.app.login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.lz.finance.base/com.lz.finance.base.iml" filepath="$PROJECT_DIR$/com.lz.finance.base/com.lz.finance.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.lz.finance.base.common/com.lz.finance.base.common.iml" filepath="$PROJECT_DIR$/com.lz.finance.base.common/com.lz.finance.base.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.lz.finance.data.crawler/com.lz.finance.data.crawler.iml" filepath="$PROJECT_DIR$/com.lz.finance.data.crawler/com.lz.finance.data.crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.lz.finance.eurekaserver/com.lz.finance.eurekaserver.iml" filepath="$PROJECT_DIR$/com.lz.finance.eurekaserver/com.lz.finance.eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/finance-boot.iml" filepath="$PROJECT_DIR$/.idea/finance-boot.iml" />
+    </modules>
+  </component>
+</project>
